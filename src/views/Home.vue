@@ -5,7 +5,8 @@
 	<Homepage />
 <div class="section__header">Books</div>
 	<Books />
-<div class="section__header">Journal</div>	
+<div class="section__header">Journal</div>
+    <Subscribe />
 </div>
 
 
@@ -30,13 +31,15 @@ import Header from '../components/Header.vue'
 import Homepage from '../components/Homepage.vue'
 import Footer from '../components/Footer.vue'
 import Books from '../components/Books.vue'
+import Subscribe from '../components/Subscribe.vue'
 
 export default {
 	components: {
 		Header,
 		Homepage,
 		Footer,
-		Books
+		Books,
+        Subscribe
 	}
 }
 </script>
